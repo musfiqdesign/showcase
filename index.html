@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musfiqur Rahman - Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="sticky-nav">
+        <div class="container nav-content">
+            <div class="logo">Musfiqur Rahman</div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-buttons">
+                <a href="#" class="btn btn-secondary">My CV</a>
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-left">
+                <p class="greeting">HELLO DEAR !</p>
+                <h1>I'm Musfiqur Rahman</h1>
+                <p class="role">A Graphic Designer</p>
+                <p class="bio">Social media posters, banners & brand visuals that capture attention and drive engagement.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="profile-card">
+                    <img src="https://via.placeholder.com/300" alt="Musfiqur Rahman" class="profile-pic">
+                    <span class="badge available">Available</span>
+                    <span class="badge experience">3+ Years Exp.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">WHAT I DO - Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-paint-brush service-icon"></i>
+                    <h3>Social Media Poster</h3>
+                    <p>Eye-catching posters designed to stop the scroll and boost your social media presence.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-image service-icon"></i>
+                    <h3>Banner Design</h3>
+                    <p>Professional banners for websites, ads, and social platforms that communicate your message clearly.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-video service-icon"></i>
+                    <h3>Thumbnail Design</h3>
+                    <p>Click-worthy thumbnails for YouTube, blogs, and video content that maximize views.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-briefcase service-icon"></i>
+                    <h3>Brand Kit</h3>
+                    <p>Complete visual identity packages including logos, colors, fonts, and brand guidelines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">MY WORK - Portfolio</h2>
+            <div class="filter-buttons">
+                <button class="btn filter-btn active" data-filter="all">All</button>
+                <button class="btn filter-btn" data-filter="poster">Poster</button>
+                <button class="btn filter-btn" data-filter="banner">Banner</button>
+                <button class="btn filter-btn" data-filter="thumbnail">Thumbnail</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio items will be dynamically loaded here -->
+                <div class="portfolio-item poster">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                    <div class="item-info">
+                        <h3>Creative Facebook Cover Designs 2025</h3>
+                        <p>Category: Poster</p>
+                        <div class="item-actions">
+                            <a href="#" class="btn btn-small">View Details</a>
+                            <a href="#" class="btn btn-small">Behance</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item banner">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 2">
+                    <div class="item-info">
+                        <h3>Social Media Design | Education/Academy Ads</h3>
+                        <p>Category: Banner</p>
+                        <div class="item-actions">
+                            <a href="#" class="btn btn-small">View Details</a>
+                            <a href="#" class="btn btn-small">Behance</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item thumbnail">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 3">
+                    <div class="item-info">
+                        <h3>High-Converting EdTech Thumbnails Vol. 2</h3>
+                        <p>Category: Thumbnail</p>
+                        <div class="item-actions">
+                            <a href="#" class="btn btn-small">View Details</a>
+                            <a href="#" class="btn btn-small">Behance</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item poster">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 4">
+                    <div class="item-info">
+                        <h3>Social Media Advertising Poster Vol.02</h3>
+                        <p>Category: Poster</p>
+                        <div class="item-actions">
+                            <a href="#" class="btn btn-small">View Details</a>
+                            <a href="#" class="btn btn-small">Behance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-external-links">
+                <a href="#" class="btn btn-primary">View on Behance</a>
+                <a href="#" class="btn btn-secondary">Follow on Facebook</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="process-section">
+        <div class="container">
+            <h2 class="section-title">WORK PROCESS</h2>
+            <div class="process-steps">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <i class="fas fa-lightbulb step-icon"></i>
+                    <h3>Brief</h3>
+                    <p>We discuss your vision, goals, and requirements to establish a clear project direction.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <i class="fas fa-drafting-compass step-icon"></i>
+                    <h3>Draft</h3>
+                    <p>I create initial concepts and designs based on your brief, exploring creative possibilities.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <i class="fas fa-sync-alt step-icon"></i>
+                    <h3>Revision</h3>
+                    <p>We refine the design together with your feedback until it's exactly what you envisioned.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">04</div>
+                    <i class="fas fa-paper-plane step-icon"></i>
+                    <h3>Delivery</h3>
+                    <p>Final files delivered in all required formats, ready for immediate use across platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">WHAT CLIENTS SAY - Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Working with Musfiqur was an absolute pleasure. The social media designs exceeded our expectations and significantly boosted our engagement rates. Highly recommend!"</p>
+                    <div class="client-info">
+                        <img src="https://via.placeholder.com/50" alt="Client 1" class="client-avatar">
+                        <div>
+                            <p class="client-name">Sarah Johnson</p>
+                            <p class="client-role">Marketing Manager, TechStart Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"The thumbnails Musfiqur created helped increase my click-through rate by 40%. Professional, creative, and always delivers on time. A true professional!"</p>
+                    <div class="client-info">
+                        <img src="https://via.placeholder.com/50" alt="Client 2" class="client-avatar">
+                        <div>
+                            <p class="client-name">Michael Chen</p>
+                            <p class="client-role">Content Creator, YouTube • 500K Subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Our brand kit turned out amazing! Musfiqur understood our vision perfectly and created a cohesive visual identity that our customers love. Exceptional work!"</p>
+                    <div class="client-info">
+                        <img src="https://via.placeholder.com/50" alt="Client 3" class="client-avatar">
+                        <div>
+                            <p class="client-name">Emily Rodriguez</p>
+                            <p class="client-role">Business Owner, Bloom Boutique</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-reviews">
+                <a href="#" class="btn btn-secondary">More reviews <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container contact-content">
+            <h2 class="section-title">GET IN TOUCH - Contact Me</h2>
+            <div class="contact-details">
+                <div class="contact-left">
+                    <h3>Let's work together</h3>
+                    <p>Have a project in mind? I'd love to hear about it. Send me a message and let's create something amazing together.</p>
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+                        <a href="mailto:musfiqgfx@gmail.com" class="btn btn-email"><i class="fas fa-envelope"></i> musfiqgfx@gmail.com</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-messenger"></i> Messenger</a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="#" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-left">
+                <p>Musfiqur Rahman</p>
+                <p>Graphic Designer</p>
+            </div>
+            <div class="footer-center">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2026 All Rights Reserved by Musfiqur Rahman</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
